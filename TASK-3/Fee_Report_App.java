@@ -74,7 +74,7 @@ public class FeeReportApp {
         System.out.println("Enter Admin Password: ");
         String password = scanner.next();
         
-        if (adminDAO.validateAdmin(username, password)) {
+        if (admin.validateAdmin(username, password)) {
             System.out.println("Admin Login Successful");
             System.out.println("1. Add Accountant\n2. Add Student\n3. Exit");
             int choice = scanner.nextInt();

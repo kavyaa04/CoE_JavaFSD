@@ -1,0 +1,21 @@
+<div class="container mt-5">
+    <h2 class="text-center mb-4">🏆 Leaderboard 🏆</h2>
+  
+    <table class="table table-dark table-striped text-center">
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Username</th>
+          <th>Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let player of leaderboard; let i = index">
+          <td>{{ i + 1 }}</td>
+          <td>{{ player.username }}</td>
+          <td>{{ player.score }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

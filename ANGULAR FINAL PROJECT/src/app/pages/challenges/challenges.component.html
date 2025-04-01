@@ -1,0 +1,18 @@
+<!-- <h1>Challenges</h1>
+<ul>
+  <li *ngFor="let challenge of challenges">
+    {{ challenge.name }} - {{ challenge.difficulty }}
+  </li>
+</ul>
+ -->
+
+
+ <h1>Challenges</h1>
+<ul>
+  <li *ngFor="let challenge of challenges">
+    <h2>{{ challenge.name }} - {{ challenge.difficulty }}</h2>
+    <p>{{ challenge.description }}</p>
+    <button (click)="startChallenge(challenge.id)">Start Challenge</button>
+  </li>
+</ul>
+

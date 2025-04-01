@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "name": "SQL Injection",
+      "difficulty": "Hard",
+      "description": "SQL Injection is a web security vulnerability that allows attackers to interfere with the queries an application makes to its database. By injecting malicious SQL code into input fields (e.g., login forms, search boxes, or URL parameters), attackers can manipulate the database to perform unauthorized actions."
+    },
+    {
+      "id": 2,
+      "name": "XSS Attack",
+      "difficulty": "Medium",
+      "description": "XSS is a web security vulnerability that allows attackers to inject malicious scripts (usually JavaScript) into web pages viewed by other users. This can lead to session hijacking, defacement of websites, or stealing sensitive information."
+    },
+    {
+      "id": 3,
+      "name": "Password Cracking",
+      "difficulty": "Easy",
+      "description": "Password cracking is the process of recovering passwords from data stored or transmitted by a system. Attackers use various techniques to guess or decrypt passwords, gaining unauthorized access to accounts or systems."
+    }
+  ]
